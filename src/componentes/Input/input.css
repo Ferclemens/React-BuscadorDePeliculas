@@ -1,0 +1,8 @@
+.input--box {
+    outline: none;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(25, 37, 129);
+    font-size: 15px;
+}

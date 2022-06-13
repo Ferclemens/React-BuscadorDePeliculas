@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.pagina--container {
+    background-color: rgb(113, 79, 79);
+}
+.buscador--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listaPeliculas--container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    justify-content: center;
+}
+.paginado--container {
+    justify-content: center; 
+}

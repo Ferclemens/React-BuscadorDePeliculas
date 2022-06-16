@@ -1,0 +1,19 @@
+.main{
+    background-color: rgb(28, 28, 28);
+    padding: 10px;
+}
+.h1 {
+    text-align: center;
+    color: whitesmoke; 
+}
+.listContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+}
+
+@media (max-width: 539px) {
+    .listContainer {
+        grid-template-columns: 100%;
+    }
+}

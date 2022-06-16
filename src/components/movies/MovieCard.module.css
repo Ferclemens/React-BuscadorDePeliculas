@@ -1,0 +1,22 @@
+.cardContainer {
+  list-style: none;
+  text-align: center;
+
+}
+.image {
+  height: 345px;
+  width: 230px;
+  border-radius: 10px;
+  background-color: rgb(133, 133, 133);
+}
+.tittle {
+  font-size: 1.5rem;
+  color: whitesmoke;  
+}
+
+@media (max-width: 539px) {
+  .image {
+    width:90%;
+    height: auto;
+  }
+}

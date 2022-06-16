@@ -1,13 +1,13 @@
 import './App.css';
 import {BrowserRouter, Routes, Route,} from "react-router-dom"
-import BuscarPeliculasPagina from './paginas/BuscarPeliculasPagina';
+import MoviesList from './components/movies/MoviesList'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="buscador" element={<BuscarPeliculasPagina/>}/>
         <Route path="" element="HoME"/>
+        <Route path="peliculas" element={<MoviesList/>}/>
       </Routes>
     </BrowserRouter>
   )

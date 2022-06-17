@@ -1,5 +1,4 @@
 .main{
-    background-color: rgb(28, 28, 28);
     padding: 10px;
 }
 .h1 {
@@ -10,6 +9,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 230px);
     gap: 20px;
+}
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    opacity: 0.8;
 }
 
 @media (max-width: 539px) {

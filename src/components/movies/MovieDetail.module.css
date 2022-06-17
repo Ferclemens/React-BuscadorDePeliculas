@@ -1,0 +1,22 @@
+.detailContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col {
+    max-width: 400px;
+    height: auto;
+    margin: 15px;
+}
+.image {
+    margin: 10px;
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+.detail {
+    font-size: 1.3rem;
+    margin: 10px;
+    color: whitesmoke; 
+}

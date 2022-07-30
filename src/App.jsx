@@ -2,12 +2,13 @@ import './App.css';
 import {BrowserRouter, Routes, Route,} from "react-router-dom"
 import MoviesList from './components/movies/MoviesList'
 import MovieDetail from './components/movies/MovieDetail';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" element="HoME"/>
+        <Route path="" element={<LandingPage/>}/>
         <Route path="movies" element={<MoviesList/>}/>
         <Route path="/movie/:movieId" element={<MovieDetail/>}/>
       </Routes>

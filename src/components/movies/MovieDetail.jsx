@@ -13,10 +13,11 @@ const MovieDetail = () => {
             setMovie(data);
         });
     },[movieId]);
-    
+    //console.log(movie);
     if(!movie){
         return null;
     }
+    //damos tamaño de imagen - predefinido por API
     const imageURL="https://image.tmdb.org/t/p/w500"
     return (
         <div className={styles.detailContainer}>

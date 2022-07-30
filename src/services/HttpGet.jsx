@@ -5,5 +5,5 @@ const HttpGet = (url) =>{
         fetch(`${pageURL}${url}?api_key=${apiKEY}`)
         .then((result) => result.json())
     )}
-
+    
     export default HttpGet;
